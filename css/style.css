@@ -7,10 +7,10 @@
 }
 
 body {
-  margin: 0;  
+  margin: auto;  
   font-family: 'Signika', sans-serif;
   font-weight: 300;
-  background-color: whi;
+  background-color: white;
 }
 
 h1, h2, h3, h4, p {
@@ -19,7 +19,16 @@ h1, h2, h3, h4, p {
 }
 
 h1, h2 {
-  font-weight: 700;
+  font-weight: 500;
+  font-family: unset;
+}
+
+h3 {
+  font-size: medium;
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+  top: -200px;
 }
 
 #wrapper {
@@ -88,15 +97,14 @@ h1, h2 {
 
 /* INTRO */
 
-#intro {
-  display: flex;
+
+#homepagegoldfish {
   align-items: center;
-  height: 40vh;
-  background-image: url("../Images/clouds.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  height: 90vh;
+  width: 90vh: ;
   background-size: contain;
+  position: relative;
+  top: -140px;
 }
 
 #intro-holder {
@@ -208,6 +216,29 @@ h1, h2 {
 }
 
 
+#proposal {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+#storyboard {
+  background-color: white;
+  image-rendering: ;
+}
+
+goldfish {
+  display: block;
+  width: 1224px;
+  height: auto;
+}
+
+/*
+.goldfish img {
+  width: 200%;
+  height: auto;
+}
+*/
+
 /*FOOTER*/
 
 #footer {
@@ -258,6 +289,11 @@ h1, h2 {
   body {
     font-size: 18px;
   }
+
+ 
+
+ 
+
 
 }
 © 2022 GitHub, Inc.
