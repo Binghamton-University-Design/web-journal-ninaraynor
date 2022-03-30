@@ -27,7 +27,7 @@ h3 {
   font-size: medium;
   text-align: center;
   font-size: 25px;
-  font-family: fantasy;
+  font-family: cursive;
 }
 
 #wrapper {
@@ -96,6 +96,11 @@ h3 {
 
 /* INTRO */
 
+#nrlogo {
+  height: 10vh;
+  width: 10vh;
+  padding-bottom: .5em;
+}
 
 #homepagegoldfish {
   align-items: center;
@@ -216,7 +221,7 @@ h3 {
 
 
 #proposal {
-  background-color: lightblue;
+  background-color: whites;
   font-family: sans-serif;
 }
 
